@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>URL → Markdown & PDF</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>URL → Markdown</h1>
+
+<p class="subtitle">
+Paste a link. Get a clean Markdown file and PDF.
+</p>
+
+<div class="input-box">
+
+<input 
+type="text" 
+id="urlInput" 
+placeholder="https://example.com/article"
+/>
+
+<button id="convertBtn">
+Convert
+</button>
+
+</div>
+
+<div class="actions">
+
+<button id="downloadMD">Download Markdown</button>
+
+<button id="downloadPDF">Download PDF</button>
+
+</div>
+
+<div id="status"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
